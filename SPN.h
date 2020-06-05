@@ -61,15 +61,14 @@ void b_add_sbox(TBOXES* box, unsigned int data);
 void b_add_pbox(TBOXES* box, unsigned int data);
 void print_boxes(TBOXES* box);
 unsigned char *load_image_data(char *image_file_name);
-TRGBTRIPLE *get_pixel(TBITMAPINFOHEADER *image_info_header, unsigned char *image_data, int x, int y);
 void *init_key(TKEY* key, unsigned int length);
 void print_key(TKEY* key);
 unsigned char get_substitution(TSBOX* sbox, unsigned char element);
 unsigned char get_reverse_substitution(TSBOX* sbox, unsigned char element);
-void bit_check(char *symbol);
 unsigned char get_bit(unsigned char element, unsigned char position);
 unsigned char *get_permutation(TPBOX* pbox, unsigned char *data, unsigned int length);
 unsigned char* get_reverse_permutation(TPBOX* pbox, unsigned char *data, unsigned int length);
-int encrypt(char *input_image_filename, char *output_image_filename, TBOXES* boxes, TKEY* key, unsigned int round_count);
-int decrypt(char *input_image_filename, char *output_image_filename, TBOXES* boxes, TKEY* key, unsigned int round_count);
+int encrypt_8(char *input_image_filename, char *output_image_filename, TBOXES* boxes, TKEY* key, unsigned int round_count, unsigned int data_length);
+int decrypt_8(char *input_image_filename, char *output_image_filename, TBOXES* boxes, TKEY* key, unsigned int round_count, unsigned int data_length);
+int analyze_8(char *input_image_filename, char *output_csv_filename);
 #endif //SP_NETWORK_SPN_H
