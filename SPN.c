@@ -345,7 +345,7 @@ int encrypt_8(char *input_image_filename, char *output_image_filename, TBOXES* b
                         xor_buf[k] = (source_data_buf[k])^(key->data[offset]);
                         sub_buf[k] = get_substitution(boxes->sboxes[offset], xor_buf[k]);
                 }
-                perm_buf = get_permutation(boxes->pboxes[0], &sub_buf[0], data_length);
+                perm_buf = get_permutation(boxes->pboxes[round], &sub_buf[0], data_length);
                 // fill the array
                 for (int count = 0; count < data_length; count++){
                     source_data_buf[count] = perm_buf[count];
@@ -409,7 +409,7 @@ int decrypt_8(char *input_image_filename, char *output_image_filename, TBOXES* b
                 unsigned char *perm_buf;
                 unsigned  char xor_buf[data_length];
                 unsigned char sub_buf[data_length];
-                perm_buf = get_reverse_permutation(boxes->pboxes[0], &source_data_buf[0], data_length);
+                perm_buf = get_reverse_permutation(boxes->pboxes[round-1], &source_data_buf[0], data_length);
                 for (int k = 0; k < data_length; k++){
                     int offset = k+(round-1)*data_length;
                     sub_buf[k] = get_reverse_substitution(boxes->sboxes[offset], perm_buf[k]);
@@ -422,7 +422,7 @@ int decrypt_8(char *input_image_filename, char *output_image_filename, TBOXES* b
             fwrite(&source_data_buf[0], sizeof(unsigned char), data_length, output_image);
         }
         fclose(output_image);
-        printf("File encrypted! Check the working directory!\n");
+        printf("File decrypted! Check the working directory!\n");
     }
     else {
         printf("Can not open image file!\n");

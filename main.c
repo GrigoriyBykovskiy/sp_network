@@ -10,7 +10,7 @@ int user_input(char* filename, unsigned int data_length, unsigned int rounds_cou
         /*some exception for user input must be here*/
     srand(time(NULL));
     TKEY key;
-    init_key(&key, data_length * rounds_count * BIT_BYTE);
+    init_key(&key, data_length * rounds_count);
     print_key(&key);
     TBOXES boxes;
     init_boxes(&boxes);
@@ -23,8 +23,11 @@ int user_input(char* filename, unsigned int data_length, unsigned int rounds_cou
         b_add_sbox(&boxes, BYTE_MAX_VALUE);
         print_sbox(boxes.sboxes[i]);
     }
-    b_add_pbox(&boxes, data_length * BIT_BYTE);
-    print_pbox(boxes.pboxes[0]);
+    for (int i = 0; i < rounds_count; i++) {
+        printf("\nRound %d\n", i+1);
+        b_add_pbox(&boxes, data_length * BIT_BYTE);
+        print_pbox(boxes.pboxes[i]);
+    }
     encrypt_8(filename, OBMPIMAGENAME, &boxes, &key, rounds_count, data_length);
     decrypt_8(OBMPIMAGENAME, OOBMPIMAGENAME, &boxes, &key, rounds_count, data_length);
     analyze_8(OBMPIMAGENAME, CSVNAME);
