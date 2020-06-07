@@ -1,0 +1,287 @@
+
+----Key----
+|Key data  |  ©||  Ö||  ||  ö|
+|Key value |169||214|| 14||246|
+--end key--
+
+Round 1
+------------------------Table of substitution:------------------------
+|byte value in the source line|  0||  1||  2||  3||  4||  5||  6||  7|
+|byte value in in the new line| 27||171||214|| 37||130||185|| 59||169|
+|byte value in the source line|  8||  9|| 10|| 11|| 12|| 13|| 14|| 15|
+|byte value in in the new line|148||198||154||142|| 38||242|| 80|| 68|
+|byte value in the source line| 16|| 17|| 18|| 19|| 20|| 21|| 22|| 23|
+|byte value in in the new line|190||228||112||239||110|| 69||151||203|
+|byte value in the source line| 24|| 25|| 26|| 27|| 28|| 29|| 30|| 31|
+|byte value in in the new line|220|| 67||175||104||116||126||  1|| 33|
+|byte value in the source line| 32|| 33|| 34|| 35|| 36|| 37|| 38|| 39|
+|byte value in in the new line| 82||184|| 29||191||120|| 76||114||207|
+|byte value in the source line| 40|| 41|| 42|| 43|| 44|| 45|| 46|| 47|
+|byte value in in the new line|182||227|| 48||215||193|| 62|| 77|| 46|
+|byte value in the source line| 48|| 49|| 50|| 51|| 52|| 53|| 54|| 55|
+|byte value in in the new line| 72||  2||132||188||133||145||173||101|
+|byte value in the source line| 56|| 57|| 58|| 59|| 60|| 61|| 62|| 63|
+|byte value in in the new line| 11|| 24|| 49|| 47||186|| 88|| 23||178|
+|byte value in the source line| 64|| 65|| 66|| 67|| 68|| 69|| 70|| 71|
+|byte value in in the new line| 63||103||245||162||147||159||223||211|
+|byte value in the source line| 72|| 73|| 74|| 75|| 76|| 77|| 78|| 79|
+|byte value in in the new line|194||236||131||  6||161||204||141||233|
+|byte value in the source line| 80|| 81|| 82|| 83|| 84|| 85|| 86|| 87|
+|byte value in in the new line|217||254||111|| 26|| 39|| 50||234||121|
+|byte value in the source line| 88|| 89|| 90|| 91|| 92|| 93|| 94|| 95|
+|byte value in in the new line|102||  8||128|| 98||152||187||192|| 53|
+|byte value in the source line| 96|| 97|| 98|| 99||100||101||102||103|
+|byte value in in the new line|135||139|| 52||124|| 19|| 14|| 74|| 43|
+|byte value in the source line|104||105||106||107||108||109||110||111|
+|byte value in in the new line| 73||107||157||222||  0||212||140||136|
+|byte value in the source line|112||113||114||115||116||117||118||119|
+|byte value in in the new line|160||143|| 90||253||156||119||123|| 54|
+|byte value in the source line|120||121||122||123||124||125||126||127|
+|byte value in in the new line|181|| 93||206|| 94|| 34|| 60||122|| 58|
+|byte value in the source line|128||129||130||131||132||133||134||135|
+|byte value in in the new line|  4||205|| 55|| 91||244|| 41||  7||249|
+|byte value in the source line|136||137||138||139||140||141||142||143|
+|byte value in in the new line|247||127||164|| 32||170||218|| 87|| 89|
+|byte value in the source line|144||145||146||147||148||149||150||151|
+|byte value in in the new line| 79||243||113||146|| 92||117||225|| 21|
+|byte value in the source line|152||153||154||155||156||157||158||159|
+|byte value in in the new line|100||144||  3||209|| 99|| 45||138||202|
+|byte value in the source line|160||161||162||163||164||165||166||167|
+|byte value in in the new line| 51||118||196|| 71|| 84|| 16|| 36||255|
+|byte value in the source line|168||169||170||171||172||173||174||175|
+|byte value in in the new line|172|| 10||  5||106|| 35||229||208||201|
+|byte value in the source line|176||177||178||179||180||181||182||183|
+|byte value in in the new line|246|| 61||216||108||250||109|| 12|| 70|
+|byte value in the source line|184||185||186||187||188||189||190||191|
+|byte value in in the new line|199|| 86||174|| 17||155||200||251||230|
+|byte value in the source line|192||193||194||195||196||197||198||199|
+|byte value in in the new line|248||183||158|| 78|| 20||231|| 25||219|
+|byte value in the source line|200||201||202||203||204||205||206||207|
+|byte value in in the new line|224||241||165||150|| 18||166|| 85|| 42|
+|byte value in the source line|208||209||210||211||212||213||214||215|
+|byte value in in the new line| 81||213|| 44|| 66||177||226||167||137|
+|byte value in the source line|216||217||218||219||220||221||222||223|
+|byte value in in the new line|221||210||176|| 83||149|| 40|| 30|| 75|
+|byte value in the source line|224||225||226||227||228||229||230||231|
+|byte value in in the new line|240||180|| 57||168|| 97|| 95||252||237|
+|byte value in the source line|232||233||234||235||236||237||238||239|
+|byte value in in the new line|232||  9||197|| 31||134|| 28|| 56|| 65|
+|byte value in the source line|240||241||242||243||244||245||246||247|
+|byte value in in the new line|105|| 64||235||179||125|| 22||238|| 15|
+|byte value in the source line|248||249||250||251||252||253||254||255|
+|byte value in in the new line|189||115||129||153|| 13||195||163|| 96|
+----------------------end table of substitution:----------------------
+------------------------Table of substitution:------------------------
+|byte value in the source line|  0||  1||  2||  3||  4||  5||  6||  7|
+|byte value in in the new line|233||216||133|| 35|| 46||124||155|| 49|
+|byte value in the source line|  8||  9|| 10|| 11|| 12|| 13|| 14|| 15|
+|byte value in in the new line| 24||230||129||115||118||212||193||119|
+|byte value in the source line| 16|| 17|| 18|| 19|| 20|| 21|| 22|| 23|
+|byte value in in the new line|141|| 70||157||239||187|| 39|| 11||224|
+|byte value in the source line| 24|| 25|| 26|| 27|| 28|| 29|| 30|| 31|
+|byte value in in the new line| 64||252|| 92|| 37||232|| 19|| 91||178|
+|byte value in the source line| 32|| 33|| 34|| 35|| 36|| 37|| 38|| 39|
+|byte value in in the new line| 72|| 82||165||105|| 54|| 75||175||201|
+|byte value in the source line| 40|| 41|| 42|| 43|| 44|| 45|| 46|| 47|
+|byte value in in the new line|107|| 48||139||179|| 87||218||206||240|
+|byte value in the source line| 48|| 49|| 50|| 51|| 52|| 53|| 54|| 55|
+|byte value in in the new line| 45|| 23||125||229|| 41||169|| 88||137|
+|byte value in the source line| 56|| 57|| 58|| 59|| 60|| 61|| 62|| 63|
+|byte value in in the new line|154|| 12|| 86||182|| 81||172|| 50|| 44|
+|byte value in the source line| 64|| 65|| 66|| 67|| 68|| 69|| 70|| 71|
+|byte value in in the new line| 14|| 33||145||  4||250||121||210|| 56|
+|byte value in the source line| 72|| 73|| 74|| 75|| 76|| 77|| 78|| 79|
+|byte value in in the new line| 97|| 96|| 30||223||108||113||162|| 94|
+|byte value in the source line| 80|| 81|| 82|| 83|| 84|| 85|| 86|| 87|
+|byte value in in the new line|235||123|| 21||156||188||131||231||109|
+|byte value in the source line| 88|| 89|| 90|| 91|| 92|| 93|| 94|| 95|
+|byte value in in the new line|181||245|| 36||190||163|| 57||153|| 17|
+|byte value in the source line| 96|| 97|| 98|| 99||100||101||102||103|
+|byte value in in the new line|200||248|| 68||213|| 16||  7||122||  9|
+|byte value in the source line|104||105||106||107||108||109||110||111|
+|byte value in in the new line| 66||150||234||167||253||138||215||149|
+|byte value in the source line|112||113||114||115||116||117||118||119|
+|byte value in in the new line| 34||203||147||151|| 83||102|| 42||168|
+|byte value in the source line|120||121||122||123||124||125||126||127|
+|byte value in in the new line| 55||  1||  0||126|| 95||247||152|| 99|
+|byte value in the source line|128||129||130||131||132||133||134||135|
+|byte value in in the new line| 51||120||208|| 80||132||170||214|| 53|
+|byte value in the source line|136||137||138||139||140||141||142||143|
+|byte value in in the new line|249|| 62||202||191||204||130||227|| 18|
+|byte value in the source line|144||145||146||147||148||149||150||151|
+|byte value in in the new line|100||225||205||173||106|| 13||134|| 65|
+|byte value in the source line|152||153||154||155||156||157||158||159|
+|byte value in in the new line|104||117||176|| 29||140|| 77||180|| 26|
+|byte value in the source line|160||161||162||163||164||165||166||167|
+|byte value in in the new line|144||111||174|| 67|| 59|| 38||114|| 61|
+|byte value in the source line|168||169||170||171||172||173||174||175|
+|byte value in in the new line|238||112||195||128||143||211||189|| 58|
+|byte value in the source line|176||177||178||179||180||181||182||183|
+|byte value in in the new line|171||183||185||148||197||  3|| 31||127|
+|byte value in the source line|184||185||186||187||188||189||190||191|
+|byte value in in the new line|241||222|| 32||237|| 15|| 60||166|| 47|
+|byte value in the source line|192||193||194||195||196||197||198||199|
+|byte value in in the new line| 27||160||243|| 93||236|| 76|| 40||184|
+|byte value in the source line|200||201||202||203||204||205||206||207|
+|byte value in in the new line|161||158|| 74||  2||196||244||116||228|
+|byte value in the source line|208||209||210||211||212||213||214||215|
+|byte value in in the new line|199|| 71|| 89||  6|| 69|| 22||207||  5|
+|byte value in the source line|216||217||218||219||220||221||222||223|
+|byte value in in the new line| 73||101||135|| 84|| 63|| 20||194||254|
+|byte value in the source line|224||225||226||227||228||229||230||231|
+|byte value in in the new line|251|| 28||221||177|| 10||217|| 79|| 78|
+|byte value in the source line|232||233||234||235||236||237||238||239|
+|byte value in in the new line|  8||142||246||164|| 85||255||242||220|
+|byte value in the source line|240||241||242||243||244||245||246||247|
+|byte value in in the new line|110||146|| 90|| 52|| 43||219|| 98||226|
+|byte value in the source line|248||249||250||251||252||253||254||255|
+|byte value in in the new line|186||159||198||103||192||136|| 25||209|
+----------------------end table of substitution:----------------------
+------------------------Table of substitution:------------------------
+|byte value in the source line|  0||  1||  2||  3||  4||  5||  6||  7|
+|byte value in in the new line| 76||216|| 86||188||100|| 35||201||217|
+|byte value in the source line|  8||  9|| 10|| 11|| 12|| 13|| 14|| 15|
+|byte value in in the new line| 89||255|| 57|| 54||221|| 17||245|| 31|
+|byte value in the source line| 16|| 17|| 18|| 19|| 20|| 21|| 22|| 23|
+|byte value in in the new line| 80||122||205||179|| 91||114|| 78||231|
+|byte value in the source line| 24|| 25|| 26|| 27|| 28|| 29|| 30|| 31|
+|byte value in in the new line|139||184|| 41|| 15||211||  6||189||209|
+|byte value in the source line| 32|| 33|| 34|| 35|| 36|| 37|| 38|| 39|
+|byte value in in the new line|220||127|| 60||213|| 73||137|| 99|| 13|
+|byte value in the source line| 40|| 41|| 42|| 43|| 44|| 45|| 46|| 47|
+|byte value in in the new line|131||254||154||185|| 64||116|| 27|| 75|
+|byte value in the source line| 48|| 49|| 50|| 51|| 52|| 53|| 54|| 55|
+|byte value in in the new line|219||204||169||124|| 49||147|| 53|| 85|
+|byte value in the source line| 56|| 57|| 58|| 59|| 60|| 61|| 62|| 63|
+|byte value in in the new line|  7||236|| 93|| 62||159|| 40||146||206|
+|byte value in the source line| 64|| 65|| 66|| 67|| 68|| 69|| 70|| 71|
+|byte value in in the new line|226|| 23||168||158||119|| 71||243|| 58|
+|byte value in the source line| 72|| 73|| 74|| 75|| 76|| 77|| 78|| 79|
+|byte value in in the new line| 22|| 68||  1|| 45|| 47||175||105||162|
+|byte value in the source line| 80|| 81|| 82|| 83|| 84|| 85|| 86|| 87|
+|byte value in in the new line|242||237|| 66||129|| 84|| 95|| 43|| 81|
+|byte value in the source line| 88|| 89|| 90|| 91|| 92|| 93|| 94|| 95|
+|byte value in in the new line|144||149||148||180||164||160|| 28||228|
+|byte value in the source line| 96|| 97|| 98|| 99||100||101||102||103|
+|byte value in in the new line|107||241||181|| 46|| 77|| 98||240|| 96|
+|byte value in the source line|104||105||106||107||108||109||110||111|
+|byte value in in the new line|227||108||136|| 55||244||165||215|| 83|
+|byte value in the source line|112||113||114||115||116||117||118||119|
+|byte value in in the new line|167||229||199|| 18||152||233||214||155|
+|byte value in the source line|120||121||122||123||124||125||126||127|
+|byte value in in the new line|198||223|| 97|| 79||222||118||110|| 29|
+|byte value in the source line|128||129||130||131||132||133||134||135|
+|byte value in in the new line| 74||133||193||194||138|| 30|| 70||239|
+|byte value in the source line|136||137||138||139||140||141||142||143|
+|byte value in in the new line| 59||  2||249|| 63||253||212|| 37||252|
+|byte value in the source line|144||145||146||147||148||149||150||151|
+|byte value in in the new line|120|| 32||246|| 72||218||173||225||224|
+|byte value in the source line|152||153||154||155||156||157||158||159|
+|byte value in in the new line|128||238|| 12||142||190|| 33||140||235|
+|byte value in the source line|160||161||162||163||164||165||166||167|
+|byte value in in the new line| 48||196|| 24||145||113||135|| 51|| 26|
+|byte value in the source line|168||169||170||171||172||173||174||175|
+|byte value in in the new line| 67||126||166||207|| 25|| 44||109||197|
+|byte value in the source line|176||177||178||179||180||181||182||183|
+|byte value in in the new line|163||102||  0||141||143|| 16||174|| 38|
+|byte value in the source line|184||185||186||187||188||189||190||191|
+|byte value in in the new line|101||  3||234||157|| 61|| 21||170||183|
+|byte value in the source line|192||193||194||195||196||197||198||199|
+|byte value in in the new line|  8||103|| 92||112||203||191||178||247|
+|byte value in the source line|200||201||202||203||204||205||206||207|
+|byte value in in the new line| 50|| 87||121||187||182||200||115||176|
+|byte value in the source line|208||209||210||211||212||213||214||215|
+|byte value in in the new line|  5||111||  4||104|| 11||151||161||106|
+|byte value in the source line|216||217||218||219||220||221||222||223|
+|byte value in in the new line| 19||195||130|| 52||156|| 34||202||172|
+|byte value in the source line|224||225||226||227||228||229||230||231|
+|byte value in in the new line| 14|| 36||251|| 65||230||171|| 42||  9|
+|byte value in the source line|232||233||234||235||236||237||238||239|
+|byte value in in the new line| 20|| 10||153||132||125||177||192|| 88|
+|byte value in the source line|240||241||242||243||244||245||246||247|
+|byte value in in the new line|186||134||210||150||232||123|| 56||117|
+|byte value in the source line|248||249||250||251||252||253||254||255|
+|byte value in in the new line| 39|| 82||248|| 69||208||250|| 90|| 94|
+----------------------end table of substitution:----------------------
+------------------------Table of substitution:------------------------
+|byte value in the source line|  0||  1||  2||  3||  4||  5||  6||  7|
+|byte value in in the new line| 81||165||207||144||180||226|| 72|| 24|
+|byte value in the source line|  8||  9|| 10|| 11|| 12|| 13|| 14|| 15|
+|byte value in in the new line|175||217|| 40||110|| 17||196||105|| 23|
+|byte value in the source line| 16|| 17|| 18|| 19|| 20|| 21|| 22|| 23|
+|byte value in in the new line|154|| 77|| 74|| 33||163||248||171||133|
+|byte value in the source line| 24|| 25|| 26|| 27|| 28|| 29|| 30|| 31|
+|byte value in in the new line|123||  0|| 18||230|| 10|| 87|| 57||228|
+|byte value in the source line| 32|| 33|| 34|| 35|| 36|| 37|| 38|| 39|
+|byte value in in the new line|  3|| 13||185||198||251||177|| 65||121|
+|byte value in the source line| 40|| 41|| 42|| 43|| 44|| 45|| 46|| 47|
+|byte value in in the new line| 94|| 56|| 55||191||205||119|| 63|| 85|
+|byte value in the source line| 48|| 49|| 50|| 51|| 52|| 53|| 54|| 55|
+|byte value in in the new line|102|| 89|| 36||220||184|| 68||245||212|
+|byte value in the source line| 56|| 57|| 58|| 59|| 60|| 61|| 62|| 63|
+|byte value in in the new line| 79|| 95||238||139|| 93||199|| 22||151|
+|byte value in the source line| 64|| 65|| 66|| 67|| 68|| 69|| 70|| 71|
+|byte value in in the new line|124||221||219||149|| 82||100||127||  6|
+|byte value in the source line| 72|| 73|| 74|| 75|| 76|| 77|| 78|| 79|
+|byte value in in the new line|174|| 78||111||242|| 41|| 75||232|| 84|
+|byte value in the source line| 80|| 81|| 82|| 83|| 84|| 85|| 86|| 87|
+|byte value in in the new line|158|| 19||135||169|| 14|| 53||236||227|
+|byte value in the source line| 88|| 89|| 90|| 91|| 92|| 93|| 94|| 95|
+|byte value in in the new line| 15||109||155||254||182|| 99|| 50||229|
+|byte value in the source line| 96|| 97|| 98|| 99||100||101||102||103|
+|byte value in in the new line|203||168||234||201||215|| 86|| 64||120|
+|byte value in the source line|104||105||106||107||108||109||110||111|
+|byte value in in the new line| 67||  7|| 26||136||190|| 83||125|| 31|
+|byte value in the source line|112||113||114||115||116||117||118||119|
+|byte value in in the new line|183||108||164|| 88||241|| 49||162|| 35|
+|byte value in the source line|120||121||122||123||124||125||126||127|
+|byte value in in the new line|192||166|| 96||178|| 54||204|| 80||131|
+|byte value in the source line|128||129||130||131||132||133||134||135|
+|byte value in in the new line|  2||206||134|| 43|| 71||209||202|| 76|
+|byte value in the source line|136||137||138||139||140||141||142||143|
+|byte value in in the new line|197|| 30||122||247||255||225||200||214|
+|byte value in the source line|144||145||146||147||148||149||150||151|
+|byte value in in the new line|129||211||153||223||167||143||106|| 28|
+|byte value in the source line|152||153||154||155||156||157||158||159|
+|byte value in in the new line|116|| 69||117||157||189||101||249|| 60|
+|byte value in the source line|160||161||162||163||164||165||166||167|
+|byte value in in the new line|253||152|| 12||113|| 97|| 38||126|| 98|
+|byte value in the source line|168||169||170||171||172||173||174||175|
+|byte value in in the new line|179||252||237||195|| 29|| 52||194||160|
+|byte value in the source line|176||177||178||179||180||181||182||183|
+|byte value in in the new line|148||213|| 32|| 11|| 73|| 62||216||142|
+|byte value in the source line|184||185||186||187||188||189||190||191|
+|byte value in in the new line|239||107||176||235|| 92||173|| 44||181|
+|byte value in the source line|192||193||194||195||196||197||198||199|
+|byte value in in the new line|112|| 16|| 20|| 42||118||  4||146||231|
+|byte value in the source line|200||201||202||203||204||205||206||207|
+|byte value in in the new line| 27|| 90|| 48||132||187||130|| 34||161|
+|byte value in the source line|208||209||210||211||212||213||214||215|
+|byte value in in the new line|137||138||  5||140||145||244||243||128|
+|byte value in the source line|216||217||218||219||220||221||222||223|
+|byte value in in the new line|246||115||240||  1|| 37||188||208||172|
+|byte value in the source line|224||225||226||227||228||229||230||231|
+|byte value in in the new line| 66|| 58||147||104|| 51||233||  9||141|
+|byte value in the source line|232||233||234||235||236||237||238||239|
+|byte value in in the new line|150||  8||156|| 91||103|| 46||222|| 45|
+|byte value in the source line|240||241||242||243||244||245||246||247|
+|byte value in in the new line|170|| 39|| 25||114|| 47|| 21||159|| 59|
+|byte value in the source line|248||249||250||251||252||253||254||255|
+|byte value in in the new line|210|| 61||224||218||250||193|| 70||186|
+----------------------end table of substitution:----------------------
+
+Round 1
+
+--------------------Table of permutation:---------------------
+|bit position in the new line | 0|| 1|| 2|| 3|| 4|| 5|| 6|| 7|
+|bit number in the source line| 0||29||31||19|| 3|| 9||16||28|
+|bit position in the new line | 8|| 9||10||11||12||13||14||15|
+|bit number in the source line|17||18|| 7||13|| 2||10|| 5||14|
+|bit position in the new line |16||17||18||19||20||21||22||23|
+|bit number in the source line| 1||22|| 6||11||30||25||12||26|
+|bit position in the new line |24||25||26||27||28||29||30||31|
+|bit number in the source line| 4||24||15||20|| 8||21||23||27|
+------------------end table of permutation:-------------------
+File encrypted! Check the working directory!
+File decrypted! Check the working directory!
+Analysis done! Check the working directory!
